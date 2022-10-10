@@ -12,7 +12,7 @@ on:
         required: true
 
 env:
-  BUCKET: iac-tf-bucket-s3
+  BUCKET: iac-tf-bucket-s3-ls88-v2
   PACKAGE: lambda-tf-gitlab.zip
 
 jobs:
