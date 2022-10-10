@@ -35,7 +35,7 @@ variable "lambda_package" {
 variable "bucket"{
   description = "code bucket"
   type = string
-  default = "iac-tf-bucket-s3"
+  default = "iac-tf-bucket-s3-ls88-v1"
 }
 variable "repo_url" {
   description = "URL que usa el repositorio"
@@ -46,7 +46,7 @@ variable "repo_url" {
 variable "domain" {
   description = "dominio"
   type        = string
-  default     = "api.295devops.com"
+  default     = "api.cmcloudlab705.info"
 }
  
 variable "read_capacity" {
@@ -60,7 +60,7 @@ variable "write_capacity" {
 variable "aws_account_id" {
   description = "Cuentas Aws para desplegar"
   type        = string
-  default = "459137896070"
+  default = "856960422202"
 }
 
 variable "aws_role_name" {
