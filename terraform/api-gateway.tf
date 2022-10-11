@@ -59,13 +59,13 @@ resource "aws_apigatewayv2_route" "child" {
       ]
 }
 
-# resource "aws_apigatewayv2_api_mapping" "example" {
-#   api_id          = aws_apigatewayv2_api.project.id
-#   domain_name     = "${var.domain}"
-#   #stage           = "$default"
-#   stage           = aws_apigatewayv2_stage.project.id
-#   api_mapping_key = "${var.app_env}"
-# }
+resource "aws_apigatewayv2_api_mapping" "example" {
+  api_id          = aws_apigatewayv2_api.project.id
+  domain_name     = "${var.domain}"
+  #stage           = "$default"
+  stage           = aws_apigatewayv2_stage.project.id
+  api_mapping_key = "${var.app_env}"
+}
 
 
 resource "aws_lambda_permission" "lambda_permission" {
