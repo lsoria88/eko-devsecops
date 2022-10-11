@@ -10,6 +10,16 @@
 TODO
 - Solucionar y documentar error del api-gateway y alias domain.
 
+El proceso correcto para salvar el error es crear a mano el "custom domain name" desde el servicio de API Gateway se debe configurar:
+1.- Domain name: api.dominio-example.com
+2.- TLS: version de TLS (ej TLS 1.2)
+3.- Endpoint type: Regional 
+4.- ACM: se debe elegir el certificado que corresponde al certificado.
+5.- TAGS: agregar si considera necesario.
+
+Luego crear el nombre de dominio y resta el mapping que se realiza con el despliegue por lo cual se debe volver a ejecutar el terraform apply.
+
+
 
 
 

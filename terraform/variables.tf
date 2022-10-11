@@ -46,7 +46,7 @@ variable "repo_url" {
 variable "domain" {
   description = "dominio"
   type        = string
-  default     = "api.cmcloudlab705.info"
+  default     = "api.autheracloud.com"
 }
  
 variable "read_capacity" {
@@ -60,7 +60,7 @@ variable "write_capacity" {
 variable "aws_account_id" {
   description = "Cuentas Aws para desplegar"
   type        = string
-  default = "856960422202"
+  default = "677825415277"
 }
 
 variable "aws_role_name" {

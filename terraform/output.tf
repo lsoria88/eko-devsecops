@@ -7,10 +7,10 @@ output "stage_url" {
   value = aws_apigatewayv2_stage.project.invoke_url
 }
 
-# output "url" {
-#   value = aws_apigatewayv2_api_mapping.example.domain_name
-# }
+output "url" {
+  value = aws_apigatewayv2_api_mapping.example.domain_name
+}
 
-# output "path" {
-#   value = aws_apigatewayv2_api_mapping.example.api_mapping_key
-# }
+output "path" {
+  value = aws_apigatewayv2_api_mapping.example.api_mapping_key
+}
