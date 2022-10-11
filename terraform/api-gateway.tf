@@ -59,7 +59,7 @@ resource "aws_apigatewayv2_route" "child" {
       ]
 }
 
-resource "aws_apigatewayv2_api_mapping" "example" {
+resource "aws_apigatewayv2_api_mapping" "project" {
   api_id          = aws_apigatewayv2_api.project.id
   domain_name     = "${var.domain}"
   #stage           = "$default"
