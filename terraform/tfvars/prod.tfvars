@@ -6,5 +6,5 @@ workspace          = "prod"
 domain             = "api.autheracloud.com"
 repo_url           = "https://gitlab.com/training-cloud/lambda-tf-gitlab.git"
 #AWS_account 
-aws_account_id     = "677825415277"
+aws_account_id     = "677825414567"
 aws_role_name      = "Role_devsecops"
