@@ -35,7 +35,7 @@ variable "lambda_package" {
 variable "bucket"{
   description = "code bucket"
   type = string
-  default = "iac-tf-bucket-s3-ls88-v2"
+  default = "iac-tf-bucket-s3-ls88-v3"
 }
 variable "repo_url" {
   description = "URL que usa el repositorio"

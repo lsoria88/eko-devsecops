@@ -7,4 +7,4 @@ domain             = "api.cmcloudlab705.info"
 repo_url           = "https://gitlab.com/training-cloud/lambda-tf-gitlab.git"
 #AWS_account 
 aws_account_id     = "916514384804"
-aws_role_name      = "training-gitlab-deploy-role"
+aws_role_name      = "Role_devsecops"
